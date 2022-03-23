@@ -1,10 +1,12 @@
 import React from "react";
 import { View, StyleSheet, Text } from "react-native";
-
-const About = () => {
+const names = [{ land:"Deutschland",id:1}, { land:"France",id:2}, { land:"London",id:2}]
+const About = ({ route, navigation }) => {
+  const { itemId, id } = route.params;
   return (
     <View style={styles.center}>
-      <Text>This is the about screen</Text>
+      <Text>itemId: {JSON.stringify(itemId)}</Text>
+      <Text>id: {JSON.stringify(id)}  </Text>
     </View>
   );
 };
