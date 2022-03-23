@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Button, Text, StyleSheet } from "react-native";
-const names = [{ land:"Deutschland",id:1}, { land:"France",id:2}, { land:"London",id:2}]
+const names = [{ land:"Deutschland",id:1}, { land:"France",id:2}, { land:"London",id:3}]
 let i=0
 const Home = ({ navigation }) => {
   return (

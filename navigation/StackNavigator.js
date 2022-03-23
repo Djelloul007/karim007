@@ -5,6 +5,8 @@ import Home from "../screens/Home";
 import About from "../screens/About";
 import Contact from "../screens/Contact";
 import Deutschland from "../screens/Deutschland";
+import France from "../screens/France";
+
 
 const Stack = createStackNavigator();
 
@@ -22,6 +24,7 @@ const MainStackNavigator = () => {
       <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="About" component={About} />
       <Stack.Screen name="Deutschland" component={Deutschland} />
+      <Stack.Screen name="France" component={France} />
     </Stack.Navigator>
   );
 }
